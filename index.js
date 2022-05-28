@@ -22,6 +22,7 @@ const init = members => {
                         answers.manager_email,
                         answers.manager_office
                     )
+                    manager.rank = 0
                     staff.push(manager)
                     break;
                 case 'Engineer':
@@ -31,6 +32,7 @@ const init = members => {
                         answers.engineer_email,
                         answers.engineer_github
                     )
+                    engineer.rank = 1
                     staff.push(engineer)
                     break;
                 case 'Intern':
@@ -40,6 +42,7 @@ const init = members => {
                         answers.intern_email,
                         answers.intern_school
                     )
+                    intern.rank = 2
                     staff.push(intern)
                     break;
             }

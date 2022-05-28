@@ -1,0 +1,69 @@
+body {
+    background-color: #d8d8d8e4;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #092845;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#member {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 1em;
+    text-align: left;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.title {
+    border-radius: 10px 10px 0 0;
+    padding: 0 1em 0 1em;
+    color: white;
+    background-color: #092845;
+}
+
+#role {
+    font-style: italic;
+}
+
+.info {
+    margin: 1em;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#pair-info {
+    color: white;
+    background-color: #092845;
+    border-radius: 5px;
+    padding: 3px;
+    width: 60px;
+    text-align: center;
+    margin-right: .5em;
+}
+
