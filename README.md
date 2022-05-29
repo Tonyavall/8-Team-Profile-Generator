@@ -9,12 +9,13 @@ A simple web app that gathers user input and generates a team members page.
 - [Project Notes](#project-notes)
 
 ## Introduction
-
+An Html5 generator based on user input gathered from npm Inquirer questions. Class objects were created and their functionality were tested through a series of Jest tests. User input is stored in those class objects and the data is then used to create a dynamic html file. The resulting html file can be found in the application preview below.
 
 ## Application Preview
 Generated Html Example [here.](https://tonyavall.github.io/HW-8-Team-Profile-Generator/)
 <p align="center">
-  <img src="./assets/images/deployed.png" alt="Deployed Html">
+  <img src="./assets/images/deployed.png" href="https://tonyavall.github.io/HW-8-Team-Profile-Generator/" alt="Deployed Html">
+  
   <img src="./assets/images/preview.gif" alt="App Preview">
 </p>
 
