@@ -13,8 +13,10 @@ A simple web app that gathers user input and generates a team members page.
 
 ## Application Preview
 Generated Html Example [here.](https://tonyavall.github.io/HW-8-Team-Profile-Generator/)
-![Deployed](./assets/images/deployed.png)
-![Preview](./assets/images/preview.gif)
+<p align="center">
+  <img src="./assets/images/deployed.png" alt="Deployed Html">
+  <img src="./assets/images/preview.gif" alt="App Preview">
+</p>
 
 ## Tech Stack
 Technologies used includes:
