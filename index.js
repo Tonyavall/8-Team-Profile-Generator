@@ -4,8 +4,8 @@ const fs = require('fs')
 const Manager = require('./lib/Manager')
 const Engineer = require('./lib/Engineer')
 const Intern = require('./lib/Intern')
-const questions = require('./lib/questions')
-const generateHtml = require('./lib/generateHtml')
+const questions = require('./assets/scripts/questions')
+const generateHtml = require('./assets/scripts/generateHtml')
 
 const promptUser = () => inquirer.prompt(questions)
 
