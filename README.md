@@ -28,6 +28,6 @@ Technologies used includes:
 
 ## Installation
 Click on the image for video instructions.
-[![Installation Instructions](./utils/images/installation_preview.jpg)](http://www.youtube.com/watch?v=4G3dHr5UpY8 "Installation Instructions")
+[![Installation Instructions](./assets/images/video-preview.png)](https://youtu.be/YJJtvz_Qpcc "Installation Instructions")
 
 ## Project Notes
