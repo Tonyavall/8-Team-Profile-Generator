@@ -141,18 +141,15 @@ const generateMembers = members => {
                 )
                 break;
             default:
-                console.log('This member was not found. Line 20, generateHtml')
+                console.log('This member was not found. Line 144, generateHtml')
                 break;
         }
     })
-    
-    // Returning a concatenated html using partial sums
-    return membersDOM.reduce(
-        (partialSum, member) => partialSum + member,
-    )
+    return membersDOM.join('')
 }
 
 const generateHtml = members => {
+    if (members.length === 0) return 'No new members were added.'
     return `<!DOCTYPE html>
 <html lang="en">
 <head>

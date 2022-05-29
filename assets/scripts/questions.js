@@ -11,8 +11,17 @@ const isIntern = answers => {
     return (answers.role === 'Intern') ? true : false
 }
 
+// Used to determine whether file name should be asked.
+let firstInit = true
+
 // Questions for npm Inquirer
 const questions = [
+    {
+        type: 'input',
+        name: 'manager_name',
+        message: 'What is the name of the team manager?',
+        when: () => firstInit ? true : false
+    },
     {
         type: 'list',
         name: 'role',
@@ -107,5 +116,7 @@ const questions = [
         when: answers => answers.role ? true : false
     }
 ]
+
+firstInit = false
 
 module.exports = questions;
